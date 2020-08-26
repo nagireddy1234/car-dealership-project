@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap and minified CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Bootstrap and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
-  <!-- font awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-    <!-- main css -->
-   <link rel="stylesheet" href="style.css">
 
-    <title>Car Dealership</title>
- </head>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+
+  <!-- main css -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Title -->
+  <title>Car Dealership</title>
+
+</head>
+
 <body>
-   <!-- preloader -->
-   <!-- <div class="preloader d-flex justify-content-center align-items-center">
+  <!-- preloader -->
+  <!-- <div class="preloader d-flex justify-content-center align-items-center">
     <img src="img/preloader.gif" alt="preloader">
   </div> -->
   <!-- end preloader -->
@@ -70,15 +80,107 @@
     </div>
   </nav>
   <!-- end of nav element -->
+  <!-- header section -->
+  <header class="header" id="header">
+    <div class="container-fluid">
+      <div class="row height-max align-items-center">
+        <div class="col col-md-9 ml-auto text-right pr-5">
+          <h5 class="title-heading d-inline-block p-2 text-uppercase">the all new</h5>
+          <h2 class="text-uppercase my-2 title">2018 mercedes-benz</h2>
+          <h3 class="text-uppercase">model name</h3>
+          <h6 class="text-capitalize">starts from</h6>
+          <h2>$60,000 <a href="" class="title-icon d-inline-block mx-2">
+              <i class="fas fa-play"></i>
+            </a></h2>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--end of  header section -->
+  <!-- skills section -->
+  <section class="skills py-5" id="skills">
+    <div class="container">
+      <!-- section title -->
+      <div class="row mb-5">
+        <div class="col d-flex flex-wrap text-uppercase justify-content-center">
+          <h1 class="font-weight-bold align-self-center mx-1">why choose</h1>
+          <h1 class="section-title--special mx-1">car dealer</h1>
+        </div>
+      </div>
+      <!-- end of section title -->
+      <div class="row">
+        <!-- single skill -->
+        <div class="col-sm-6 col-lg-3 text-center my-3">
+          <a href="" class="skills-icon p-2 rounded-circle">
+            <i class="fas fa-car fa-fw"></i>
+          </a>
+          <h6 class="text-uppercase font-weight-bold my-3">all brands</h6>
+          <div class="skills-underline"></div>
+          <p class="w-75 mx-auto text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, aperiam!
+          </p>
+        </div>
+        <!-- end of single skill -->
+        <!-- single skill -->
+        <div class="col-sm-6 col-lg-3 text-center my-3">
+          <a href="" class="skills-icon p-2 rounded-circle">
+            <i class="fas fa-comments fa-fw"></i>
+          </a>
+          <h6 class="text-uppercase font-weight-bold my-3">free support</h6>
+          <div class="skills-underline"></div>
+          <p class="w-75 mx-auto text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, aperiam!
+          </p>
+        </div>
+        <!-- end of single skill -->
+        <!-- single skill -->
+        <div class="col-sm-6 col-lg-3 text-center my-3">
+          <a href="" class="skills-icon p-2 rounded-circle">
+            <i class="fas fa-people-carry fa-fw"></i>
+          </a>
+          <h6 class="text-uppercase font-weight-bold my-3">caring</h6>
+          <div class="skills-underline"></div>
+          <p class="w-75 mx-auto text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, aperiam!
+          </p>
+        </div>
+        <!-- end of single skill -->
+        <!-- single skill -->
+        <div class="col-sm-6 col-lg-3 text-center my-3">
+          <a href="" class="skills-icon p-2 rounded-circle">
+            <i class="fas fa-wallet fa-fw"></i>
+          </a>
+          <h6 class="text-uppercase font-weight-bold my-3">affordable</h6>
+          <div class="skills-underline"></div>
+          <p class="w-75 mx-auto text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, aperiam!
+          </p>
+        </div>
+        <!-- end of single skill -->
+      </div>
+    </div>
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </section>
+  <!-- end of skills section -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 
-    <script src="js/script.js"></script>
- 
-  
+
+
+
+
+
+
+
+
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+
+  <script src="js/script.js"></script>
+
+
 </body>
 
 
