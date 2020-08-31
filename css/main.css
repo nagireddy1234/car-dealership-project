@@ -36,6 +36,11 @@ body{
   display: none!important;
 }
 
+
+
+
+
+
 /* navbar */
 .navbar{
   background: var(--mainWhite);
@@ -105,6 +110,9 @@ body{
 }
 
 
+
+
+
 .title-heading{
   background: rgba(0,0,0,0.4);
   border-left: 0.3rem solid var(--mainBlue);
@@ -141,6 +149,7 @@ body{
   background: var(--mainBlue);
   margin: 1rem auto;
 }
+
 
 /* inventory */
 .inventory{
@@ -237,7 +246,6 @@ color: var(--mainBlue);
 .img-container:hover .featured-link{
   opacity: 1;
 }
-
 /* gallery  */
 .gallery-item{
   background: var(--mainYellow);
@@ -265,7 +273,6 @@ opacity: 0.5;
 .gallery-item:hover:after{
   transform: scale(1);
 }
-
 /* modal */
 .showcase{
   position: fixed;
@@ -284,7 +291,16 @@ opacity: 0.5;
 .showcase-show{
   display: flex;
 }
+
+
+
+
 /* end of modal */
+
+
+
+
+
 
 /* contact section */
 .contact{

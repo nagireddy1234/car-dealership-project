@@ -103,10 +103,6 @@ const DisplaySpecialCars = ((CreateCars) => {
     }
 
   })
-
-
-
-
 })(CreateCars);
 // display all cars
 const DisplayCars = ((CreateCars) => {
@@ -194,8 +190,6 @@ const Gallery = (() => {
       if (event.target.classList.contains('gallery-item')) {
         let src = event.target.childNodes[1].src;
         document.querySelector('.showcase-img').src = src;
-
-
       }
     })
   })
